@@ -1,0 +1,36 @@
+﻿Site: P&G
+
+Standing client test environment: Windows 10, Google Chrome version 68.0.3440.106
+Designations: 
+* Bug
+? Question
++ Ok
+! Limited testing in development environment
+
+Aim: Check the Registration of a new User and Photographer.
+
+User:
++ The registration form is completed correctly, the registration was successful, and a confirmation message was sent to the email. After confirmation, the user can be login.
++ Deleting an account through the user profile settings,  the user can delated.
+! It is not possible to register via facebook, as the site is at the development stage and a message is being issued error.
+* When at first registering and the next re-registering to the same email without confirming it by email, the user is shown and duplicated in the admin panel without an email.
+* In the fields First, Last Name, Email, Password, Confirm Password, you can insert text, more than 5000 words. The system accepts text of more than 5000 words and allows for registration new user.
+? How many characters should be in the fields: First name, Last name, Email, Password, Confirm password? 
+* The registration form does not indicate the required fields for filling in. What fields should be required? 
+* If the email address is not entered correctly in the Email field, you will see an error message in Russian language by hovering the mouse over the field.
+? Should the site support the Cyrillic alphabet?
+
+Photographer:
+* When registration as a photographer, the registration confirmation message does not come or comes by email on the second day, after which there is no registration request in the administrator area.
+After that, registration is impossible for the second time, appears the error message "PLEASE TRY ANOTHER EMAIL", but possible to registration as a client.
+? When a user registers as a photographer, where does the request appear in the admin panel?
+* Can create a new photographer through the administrator's area, then the photographer can log in to the account, but can not delete the account through the profile settings of the photographer, the confirmation letter does not come.
+
+Admin:
++ Creating an administrator through the administrator area, was successful
++ Login to the site as an administrator, was successful
+* Having created an administrator through the administrator area, after entering in the administrator account, the following functions are not displayed: Notification, My Favourite, Profile page, Edit profile, Manage Gallery, except for Admin area, Logout. It does not allow you to set up and edit a profile.
+
+Resolution: The function to receive e-mail confirming the registration of a new customer has been fixed, but not always correct, when registering a photographer, it is necessary to correct the receipt of confirmation message and monitor the displayed of requisitions in the administrator area.
+
+Have not done: sections administration area of the site; creation and editing of data in the profile of the user  of photographers, clients, admins; uploading and editing photos.

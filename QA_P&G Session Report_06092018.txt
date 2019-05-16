@@ -1,0 +1,66 @@
+Site: P&G
+
+Standing client test environment: Windows 10, Google Chrome version 68.0.3440.106
+Designations: 
+* Bug
+? Question
++ Ok
+! Limited testing in development environment
+
+Aim: Find obvious bugs; Explore the photege site; Check the Login and Registration forms
+
+Start up pop-up:
+? At first open the site and see pop-up, don’t choose city and update the page, pop up is disappears. It is right? 
+Toronto = default
+* All pop-up has 2 scrolls
+
+Home:
+Trading:
+* After the confirmation of the cookie, the message False appears
+
+Photographer’s portfolio:
+* Contact photographer pop-up have 2 vertical scrolls (click button “contact photographer”)
++ Need login for view information about photographer
+* Incorrect information and text about photographer’s (Brian Wan Yuen Chuen Photo LTD; Administer Photography in Toronto destination)
+* No button "read more" in photographer's portfolio, except portfolio Administer Photography in Toronto destination and Henry F. Photography in Vancouver destination
+* Background pop-up have 2 vertical scrolls (click button “read more”)
+? Must the keywords match the photos or are they assigned chaotically?
+? Must the all profile keywords displayed in photographer's portfolio?
+* Profile keywords incorrectly displayed (Yvonne Lee; Administer Photography in Toronto destination and Hera Tam in Vancouver destination)
+* Keyword filters are not working correctly
+* The number of likes is incorrectly displayed
+* There is no main photo in the portfolio of photographers, which does not change when you press it in Vancouver destination.
+* Display duplicate photos after using filters (not often)
+
+
+Style Search:
+* Duplicate keywords when choosing Vancouver
+* Crawling text on each other when you open “Style search” when choosing Vancouver
+
+Sign Up:
+? How many characters should be in the fields: First name, Last name, Email, Password, Confirm password?
+? What special characters can I use in the fields?
+! It is not possible to register via facebook, as the site is at the development stage and a message is being issued error (as a client)
+
+Login:
+! It is not possible to login via facebook as the site is at the development stage and a message is being issued error
+* When you click on the login button when the fields are empty, you receive an error message in Russian: “Заполните это поле”
+* Double click on button login, you receive an error message in Russian: “Заполните это поле”
+* After double click on button login, enter the data in the email field, you receive an error message in Russian: “Адрес электронной почты должен содержать символ “@”. В адресе ……. отсутствует символ “@”.”
+* If you enter part of the email address and only the symbol "@", you will receive the following message in Russian: "Введите часть адреса после символа "@". Адрес ........ неполный".
+* Duplication an incorrect message with an error after uploading a photo with the wrong size in user profile
+* Cannot upload photo in .png format in user profile
+* A pop-up window in the settings of the user account is displayed incorrectly when you open the window, the browser closes part of the title or does not display it at all when uploading and editing the photo
+
+Navigations:
+Privacy Policy:
+* Different font and indents
+Contact us:
++ Message sent
+
+
+Resolution: The site is good but needs further work and correction of the function of received a confirmation email when registering.
+
+Not done:
+- Checking registration and login
+- Likes
